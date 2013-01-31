@@ -1,0 +1,45 @@
+@import url("../tekne-bloc-0.8/style.css");
+/*
+Theme Name:     Tekne Bloc Child
+Theme URI:
+Description:    My Child theme
+Author:         elbit.cat
+Author URI:
+Template:       tekne-bloc-0.8
+Version:        0.8
+*/
+.left { float: left; }
+
+.right { float: right; }
+
+.column-1-2 { width: 50%; }
+
+/*
+Theme Name: _s
+Layout: Content-Sidebar
+*/
+#primary { float: left; margin: 0 -25% 0 0; width: 100%; }
+
+#content { margin: 0 25% 0 0; }
+
+#secondary { /* Sidebar 1 */ float: right; overflow: hidden; width: 25%; }
+
+#tertiary { /* Sidebar 2 */ clear: right; }
+
+.site-footer { clear: both; width: 100%; }
+
+a { color: blue; }
+
+a:visited { color: purple; }
+
+a:hover, a:focus, a:active { color: #4999c9; }
+
+.menu a { line-height: 1.4; float: left; margin-left: 1%; text-align: center; color: white; background: #2C2C2C; border-radius: 4px; -webkit-transition: all 0.2s ease-in; /* Safari 3.2+, Chrome */ -moz-transition: all 0.2s ease-in; /* Firefox 4-15 */ -o-transition: all 0.2s ease-in; /* Opera 10.5–12.00 */ transition: all 0.2s ease-in; /* Firefox 16+, Opera 12.50+ */ }
+.menu a:hover, .menu a :focus { background: #4999c9; text-decoration: none; }
+.menu .menu-active { background-color: #4999c9; }
+
+header {  display: block; }
+
+.logo { float: left; }
+
+.main-navigation { float: right; clear: none; }
