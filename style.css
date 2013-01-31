@@ -14,32 +14,80 @@ Version:        0.8
 
 .column-1-2 { width: 50%; }
 
+.well, #secondary { min-height: 20px; padding: 2%; margin-bottom: 20px; background-color: #f5f5f5; border: 1px solid #eeeeee; border: 1px solid rgba(0, 0, 0, 0.05); border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+.well blockquote, #secondary blockquote { border-color: #ddd; border-color: rgba(0, 0, 0, 0.15); }
+
 /*
 Theme Name: _s
 Layout: Content-Sidebar
 */
-#primary { float: left; margin: 0 -25% 0 0; width: 100%; }
+#primary { float: left; margin: 0 -25% 0 0; width: 95%; padding-right: 5%; }
 
 #content { margin: 0 25% 0 0; }
 
-#secondary { /* Sidebar 1 */ float: right; overflow: hidden; width: 25%; }
+#secondary { /* Sidebar 1 */ float: right; overflow: hidden; width: 21%; }
 
 #tertiary { /* Sidebar 2 */ clear: right; }
 
 .site-footer { clear: both; width: 100%; }
 
-a { color: blue; }
+* { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 100%; }
 
-a:visited { color: purple; }
+h1, h2, h3, h4, h5, h6 { margin: 0; color: gray; text-rendering: optimizelegibility; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: normal; color: silver; }
 
-a:hover, a:focus, a:active { color: #4999c9; }
+h1 { font-size: 1.875em; line-height: 1.5; }
+h1 small { font-size: 1.125em; }
+
+h2 { font-size: 1.5em; line-height: 1.3; }
+h2 small { font-size: 1.125em; }
+
+h3 { font-size: 1.125em; line-height: 1.2; }
+h3 small { font-size: 0.875em; }
+
+h4, h5, h6 { line-height: 1.1; }
+
+h4 { font-size: 0.875em; }
+h4 small { font-size: 0.75em; }
+
+h5 { font-size: 0.75em; }
+
+h6 { font-size: 0.687em; color: silver; text-transform: uppercase; }
+
+a { color: #4999c9; text-decoration: none; }
+
+a:visited { text-decoration: dotted; color: #4999c9; }
+
+a:hover, a:focus, a:active { color: #4999c9; text-decoration: underline; }
+
+p { margin: 0.9em 0; }
 
 .menu a { line-height: 1.4; float: left; margin-left: 1%; text-align: center; color: white; background: #2C2C2C; border-radius: 4px; -webkit-transition: all 0.2s ease-in; /* Safari 3.2+, Chrome */ -moz-transition: all 0.2s ease-in; /* Firefox 4-15 */ -o-transition: all 0.2s ease-in; /* Opera 10.5–12.00 */ transition: all 0.2s ease-in; /* Firefox 16+, Opera 12.50+ */ }
 .menu a:hover, .menu a :focus { background: #4999c9; text-decoration: none; }
 .menu .menu-active { background-color: #4999c9; }
+
+article { padding: 4% 0; }
 
 header {  display: block; }
 
 .logo { float: left; }
 
 .main-navigation { float: right; clear: none; }
+
+.banner { background: #4999c9; float: left; }
+.banner img { max-width: 100%; }
+.banner h1 { color: white!important; float: left; width: 60%; margin-top: -15%; margin-left: 5%; }
+.banner strong { color: #333; }
+
+.entry-title { font-size: 2.3em !important; color: #4999c9; font-weight: 400; }
+.entry-title a:visited { color: #4999c9; }
+
+.entry-meta { font-size: 0.9em; line-height: 1; }
+
+.paging-navigation { display: none; }
+
+.main-navigation { margin-top: 1%; }
+.main-navigation li { float: left; width: 20%; }
+.main-navigation a { width: 90%; }
+
+@media (max-width: 90.0625em) { .site { width: 80%; margin: 0 auto; } }
