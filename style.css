@@ -21,11 +21,11 @@ Version:        0.8
 Theme Name: _s
 Layout: Content-Sidebar
 */
-#primary { float: left; margin: 0 -25% 0 0; width: 95%; padding-right: 5%; }
+#primary { float: left; margin: 0 -25% 0 0; width: 90%; padding-right: 10%; }
 
 #content { margin: 0 25% 0 0; }
 
-#secondary { /* Sidebar 1 */ float: right; overflow: hidden; width: 21%; }
+#secondary { /* Sidebar 1 */ float: right; overflow: hidden; width: 21%; margin-top: 4%; padding: 1%; }
 
 #tertiary { /* Sidebar 2 */ clear: right; }
 
