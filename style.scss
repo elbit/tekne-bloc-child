@@ -36,7 +36,19 @@ $color2:#4999c9;
   }
 }
 
+.list-unnestyled { list-style:none;}
 
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
 
 
 /*
@@ -202,8 +214,19 @@ header { display:block;}
     a { width: 90%;}
 }
 
+.site-footer { @include clearfix;
+
+  ul {list-style:none; font-size: 0.9em; padding-left: 0;}
+}
+
+.module-footer {width:30%; float:left; margin-top: 0; margin-bottom: 0;}
+
+.menu-footer { float: none; margin-left: 35%; width:30%;  
 
 
+  
+      a {margin-bottom:10%; float:none; display:block; width:100%; font-size: 0.9em;}
+}
 
 
 
