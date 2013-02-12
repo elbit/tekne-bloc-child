@@ -28,7 +28,7 @@
 	<header id="masthead" class="site-header " role="banner">
 		<hgroup class="logo column-1-2">
 		
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="wp-content/themes/tekne-bloc-0.8/img/teknelogo-beta-0.4.png" alt="home"></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="wp-content/themes/tekne-bloc-0.8/img/teknelogo-beta-0.6.png" alt="home"></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup>
 

@@ -15,7 +15,7 @@
 		
 		<div class="site-info module-footer ">
 			<ul class="address list-unnestyled" itemscope itemtype="http://data-vocabulary.org/Organization">    
-	         	<li itemprop="brand"><a href="http://teknecultura.com" itemprop="url"><img src="img/teknelogo-beta-0.4-small.png"></a></li>
+	         	<li itemprop="brand"><a href="http://teknecultura.com" itemprop="url"><img src="wp-content/themes/tekne-bloc-0.8/img/teknelogo-beta-0.6.png" alt="home"></a></li>
 	          	<li itemprop="email">info@teknecultura.com</li>
 	          	<ul itemprop="address list-unnestyled" itemscope itemtype="http://data-vocabulary.org/Address">
 		            <li itemprop="street-address">Vidal i Ribas 25</li>
@@ -46,6 +46,8 @@
 </div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>
+
+
 
 </body>
 </html>
