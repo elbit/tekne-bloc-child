@@ -40,7 +40,7 @@
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->
 	<div role="banner"class="banner">
-		<img src="wp-content/themes/tekne-bloc-0.8/img/banner-bloc.0.1.png">
-		<h1>Un bloc dedicat al <strong>màrqueting cultural</strong>. Reflexions, tècniques, bones pràctiques, recursos i fonts d’informació.</h1>
+		<img src="img/banner-bloc-0.2.png">
+		
 	</div>
 	<div id="main" class="site-main">

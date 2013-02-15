@@ -27,19 +27,19 @@
                 <li itemprop="locality">Sant Feliu de Llobregat</li>
                 <li itemprop="postal-code">08980</li> 
                 <li itemprop="region">Barcelona</li>
-                <li itemprop="country-name" class="hidden">Spain</li>
+                
               </ul>
-              <li itemprop="tel" href="939853242">93 985 32 42</li>
+              <li><a itemprop="tel" href="tel:936853242" class="important">936 853 242</a></li>
         </ul>
       </div>
       
-      <div class=" module-footer  well">
+      <div class=" module-footer  well hidden-phone">
               <img src="img/mailing3.png">
       
         <div class="navbar-inner cta cta-footer">
 
              <form action="http://produccionscontrabaix.us5.list-manage.com/subscribe/post?u=df5f9aafe375682bc4f69b46d&amp;id=2405a54f28" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate navbar-form" target="_blank" novalidate>
-              <h2 class="cta-lema">Vols rebre informació?</h2>
+              <h2 class="cta-lema">Subscriu-te al bloc i rep informació:</h2>
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="el teu e-mail" required>
               <input type="submit" value="Subscriu-te" name="Subscriu-te" id="mc-embedded-subscribe" class="btn btn-info btn-block">
             </form>
@@ -48,11 +48,11 @@
         
       </div>
       
-      <div class="module-footer well xarxes no-margin-right">
+      <div class="module-footer well xarxes no-margin-right hidden-phone">
       
         
-        <a class="twitter-timeline"  height="350"href="https://twitter.com/teknecultura" data-widget-id="301042086843662338">Tuits de @teknecultura</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         <!--<a class="twitter-timeline"  height="350"href="https://twitter.com/teknecultura" data-widget-id="301042086843662338">Tuits de @teknecultura</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
 
 
 
