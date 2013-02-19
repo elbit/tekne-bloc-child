@@ -15,21 +15,20 @@
 		
 		<div class="well module-footer">
         <ul class=" address " itemscope itemtype="http://data-vocabulary.org/Organization">
-              <li itemprop="brand">
-                <a href="http://teknecultura.com" itemprop="url">
-                  <img src="img/teknelogo-beta-0.6.png" alt="home">
-                </a>
-              </li>
-              <br/>
-              <li itemprop="email"><a href="mailto:info@teknecultura.com">info@teknecultura.com</a></li>
-              <ul itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-                <li itemprop="street-address">Vidal i Ribas 25</li>
-                <li itemprop="locality">Sant Feliu de Llobregat</li>
-                <li itemprop="postal-code">08980</li> 
-                <li itemprop="region">Barcelona</li>
-                
-              </ul>
-              <li><a itemprop="tel" href="tel:936853242" class="important">936 853 242</a></li>
+          <li itemprop="brand">
+            <a href="http://teknecultura.com" itemprop="url">
+              <img src="img/teknelogo-beta-0.6.1-transparent.png" alt="home">
+            </a>
+          </li>
+          <br/>
+          <li itemprop="email"><a href="mailto:info@teknecultura.com">info@teknecultura.com</a></li>
+          <ul itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+            <li itemprop="street-address">Vidal i Ribas 25</li>
+            <li itemprop="locality">Sant Feliu de Llobregat</li>
+            <li itemprop="postal-code">08980</li> 
+            <li itemprop="region">Barcelona</li>
+          </ul>
+          <li><a itemprop="tel" href="tel:936853242" class="important"> 936 853 242</a></li>
         </ul>
       </div>
       
@@ -61,13 +60,13 @@
     
     <nav class="menu menu-footer well" role="menu">
             <!-- <span class="half-width float-left"> -->
-              <a  href="que.php"> Què </a>
-              <a href="com.php"> Com</a>
-              <a href="qui.php"> Qui</a>
+              <a  href="http://teknecultura.com/que.php"> Què </a>
+              <a href="http://teknecultura.com/com.php"> Com</a>
+              <a href="http://teknecultura.com/qui.php"> Qui</a>
           <!--   </span> -->
             <!-- <span class="half-width float-left"> -->
-              <a href="blog.php"> Bloc...</a>
-              <a href="contacte.php"> Contacte</a>
+              <a href="http://teknecultura.com/bloc"> Bloc...</a>
+              <a href="http://teknecultura.com/contacte.php"> Contacte</a>
               <a class="to-top no-margin-right" href="#top">&#11014; Puja &#11014;</a>
            <!--  </span> -->
         </nav>
