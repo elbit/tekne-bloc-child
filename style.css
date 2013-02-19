@@ -1493,6 +1493,8 @@ article { padding: 4% 0 5% 0; }
 
 ul, ol { margin: 0; }
 
+ul { margin-left: 1.2em; }
+
 header {  display: block; margin-top: 1%; margin-bottom: 0; }
 
 .logo { float: left; margin-bottom: 1% !important; }
